@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotbal Statistici & Predictor AI</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Animated background ambient blobs -->
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-futbol"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>Fotbal <span>AI Predictor</span></h1>
+                    <p class="subtitle">Analiză H2H, statistici & predicții automate din Flashscore</p>
+                </div>
+            </div>
+
+            <div class="server-status-pill" id="server-status">
+                <span class="status-dot"></span>
+                <span id="status-text">Server conectat</span>
+            </div>
+        </div>
+
+        <!-- 2-Tab Navigation Bar -->
+        <nav class="tabs-nav" aria-label="Navigare tab-uri">
+            <button class="tab-btn active" id="tab-btn-scraper" data-tab="tab-scraper">
+                <i class="fa-solid fa-bolt"></i>
+                <span>1. Analiză Flashscore</span>
+                <span class="tab-pulse-indicator"></span>
+            </button>
+            <button class="tab-btn" id="tab-btn-cards" data-tab="tab-cards">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>2. Carduri Meciuri & Predicții</span>
+                <span class="badge" id="matches-badge">0</span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- ================= TAB 1: SCRAPER & LIVE TERMINAL ================= -->
+        <section id="tab-scraper" class="tab-pane active">
+            <div class="scraper-card glass-panel">
+                <div class="scraper-card-header">
+                    <div class="badge-title">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Analizor Automat
+                    </div>
+                    <h2>Introdu link-ul de Flashscore pentru analiză</h2>
+                    <p class="desc">
+                        Lipește link-ul meciului dorit (ex: pagina meciului sau tab-ul H2H). Scraperul va extrage automat datele, va calcula probabilitățile și va genera predicțiile în timp real.
+                    </p>
+                </div>
+
+                <div class="url-input-container">
+                    <div class="url-input-wrapper">
+                        <i class="fa-solid fa-link input-icon"></i>
+                        <input 
+                            type="text" 
+                            id="flashscore-url-input" 
+                            placeholder="Ex: https://www.flashscore.ro/meci/fotbal/echipa1-id/echipa2-id/#/h2h/total" 
+                            autocomplete="off"
+                            spellcheck="false"
+                        >
+                        <button type="button" id="clear-url-btn" class="input-action-btn" title="Golește câmpul" style="display: none;">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <button type="button" id="paste-url-btn" class="input-action-btn" title="Lipește din clipboard">
+                            <i class="fa-regular fa-clipboard"></i> <span>Paste</span>
+                        </button>
+                    </div>
+
+                    <div class="actions-toolbar">
+                        <button id="start-scrape-btn" class="btn btn-primary-glow">
+                            <i class="fa-solid fa-play"></i>
+                            <span>Analizează Meciul</span>
+                        </button>
+
+                        <div class="quick-modes">
+                            <button id="btn-mode-live" class="btn btn-secondary" title="Extrage meciurile care se joacă LIVE acum pe Flashscore">
+                                <span class="live-dot"></span> Meciuri Live de Azi
+                            </button>
+                            <button id="btn-mode-ieri" class="btn btn-secondary" title="Actualizează scorurile meciurilor jucate ieri">
+                                <i class="fa-solid fa-clock-rotate-left"></i> Actualizare Scoruri Ieri
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Status & Progress Bar -->
+                <div id="job-status-banner" class="job-status-banner" style="display: none;">
+                    <div class="job-info">
+                        <div class="status-indicator-wrapper">
+                            <span class="pulse-ring"></span>
+                            <i class="fa-solid fa-microchip spinner-icon"></i>
+                        </div>
+                        <div class="job-text">
+                            <span class="job-title" id="job-title-text">Analiză în desfășurare...</span>
+                            <span class="job-sub" id="job-sub-text">Se navighează și se procesează datele H2H</span>
+                        </div>
+                    </div>
+                    <div class="job-controls">
+                        <span class="timer-badge" id="job-timer"><i class="fa-regular fa-clock"></i> 00:00</span>
+                        <button id="cancel-job-btn" class="btn btn-danger-soft">
+                            <i class="fa-solid fa-stop"></i> Oprește
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Terminal Window (Live logs streaming) -->
+            <div class="terminal-window glass-panel">
+                <div class="terminal-header">
+                    <div class="window-controls">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                    </div>
+                    <div class="terminal-title">
+                        <i class="fa-solid fa-terminal"></i> node scraper.js (Live Stream Consolă)
+                    </div>
+                    <div class="terminal-actions">
+                        <label class="auto-scroll-toggle" title="Derulare automată la ultimul log">
+                            <input type="checkbox" id="auto-scroll-check" checked>
+                            <span>Auto-scroll</span>
+                        </label>
+                        <button id="copy-logs-btn" class="btn-icon-tiny" title="Copiază toate logurile">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                        <button id="clear-terminal-btn" class="btn-icon-tiny" title="Golește consola">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div id="terminal-logs">
+                        <div class="term-line info">
+                            <span class="term-time">[Ready]</span>
+                            <span class="term-msg">Consola este pregătită. Introdu un link mai sus și apasă "Analizează Meciul".</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Previzualizare meci proaspăt analizat -->
+            <div id="quick-match-result" class="quick-match-result" style="display: none;">
+                <div class="result-banner">
+                    <div class="result-header">
+                        <div class="result-success-badge">
+                            <i class="fa-solid fa-circle-check"></i> Meci Analizat cu Succes!
+                        </div>
+                        <button id="go-to-cards-btn" class="btn btn-accent-glow">
+                            <span>Vezi în Tabul de Carduri</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div id="quick-card-container"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= TAB 2: MATCH CARDS & PREDICTIONS ================= -->
+        <section id="tab-cards" class="tab-pane">
+            <div class="controls glass-panel">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="search-input" placeholder="Caută echipă, campionat sau meci...">
+                </div>
+                <div class="filters-group">
+                    <div class="select-wrapper file-select-wrapper">
+                        <i class="fa-regular fa-file-lines select-icon"></i>
+                        <select id="file-selector" class="glass-select" title="Alege fișierul de date salvat">
+                            <option value="">Se încarcă fișierele...</option>
+                        </select>
+                    </div>
+                    <input type="date" id="file-date-picker" class="glass-select" title="Alege data statisticilor">
+                    <select id="date-filter" class="glass-select">
+                        <option value="">Toate datele</option>
+                    </select>
+                    <select id="time-filter" class="glass-select">
+                        <option value="">Toate orele</option>
+                    </select>
+                    <select id="camp-filter" class="glass-select">
+                        <option value="">Toate campionatele</option>
+                    </select>
+                    <button id="refresh-btn" class="btn btn-icon" title="Reîncarcă datele">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>
+                    <button id="delete-file-btn" class="btn btn-icon btn-danger-soft" title="Șterge fișierul curent de date">
+                        <i class="fa-regular fa-trash-can"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Stats Overview Bar -->
+            <div class="stats-overview" id="stats-overview" style="display: none;">
+                <div class="stat-chip">
+                    <i class="fa-solid fa-futbol"></i>
+                    <span>Total Meciuri: <b id="stat-total-matches">0</b></span>
+                </div>
+                <div class="stat-chip highlight-gold">
+                    <i class="fa-solid fa-star"></i>
+                    <span>Value Bets (&ge;90%): <b id="stat-value-bets">0</b></span>
+                </div>
+                <div class="stat-chip">
+                    <i class="fa-solid fa-trophy"></i>
+                    <span>Campionate: <b id="stat-total-camps">0</b></span>
+                </div>
+                <div class="stat-file-info" id="date-display">
+                    Se încarcă datele...
+                </div>
+            </div>
+
+            <!-- Container Carduri Meciuri -->
+            <div id="matches-container">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Căutăm meciurile procesate...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <footer>
+        <p>Fotbal AI Predictor & Scraper | Flashscore Analytics Engine</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

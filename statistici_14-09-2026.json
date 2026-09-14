@@ -1,0 +1,938 @@
+[
+  {
+    "urlMeci": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/newcastle-p6ahwuwJ/h2h/total/?mid=Q1TGrNGq",
+    "matchTitle": "Leeds vs Newcastle",
+    "campionat": "Anglia: Premier League - Runda 4",
+    "dataOra": "14.09.2026 22:00",
+    "scorMeciCurent": "- ()",
+    "echipaGazdaImg": "https://static.flashscore.com/res/image/data/rsvCPOh5-MTp25XgE.png",
+    "echipaOaspeteImg": "https://static.flashscore.com/res/image/data/fojwJwZA-2Vnc5VQf.png",
+    "statisticiH2H": {
+      "totalMeciuriH2H": 5,
+      "echipaGazda": {
+        "nume": "Leeds",
+        "victorii": 0,
+        "goluriMarcate": 5
+      },
+      "echipaOaspete": {
+        "nume": "Newcastle",
+        "victorii": 2,
+        "goluriMarcate": 7
+      },
+      "egaluri": 3,
+      "ambeleMarcheaza": 2,
+      "peste1_5Goluri": 2,
+      "peste2_5Goluri": 2
+    },
+    "formaRecentă": {
+      "echipaGazda": {
+        "nume": "Leeds",
+        "totalMeciuri": 5,
+        "victorii": 2,
+        "egaluri": 2,
+        "infrangeri": 1,
+        "goluriMarcate": 8,
+        "goluriPrimite": 8,
+        "mediaGoluriMarcate": 1.6,
+        "mediaGoluriPrimite": 1.6,
+        "ambeleMarcheaza": 3,
+        "peste2_5Goluri": 1,
+        "cleanSheets": 2
+      },
+      "echipaOaspete": {
+        "nume": "Newcastle",
+        "totalMeciuri": 5,
+        "victorii": 3,
+        "egaluri": 2,
+        "infrangeri": 0,
+        "goluriMarcate": 10,
+        "goluriPrimite": 6,
+        "mediaGoluriMarcate": 2,
+        "mediaGoluriPrimite": 1.2,
+        "ambeleMarcheaza": 3,
+        "peste2_5Goluri": 3,
+        "cleanSheets": 2
+      }
+    },
+    "statisticiExtinse": {
+      "total": null,
+      "primaRepriza": null
+    },
+    "statisticiGoluriPrimaRepriza": {
+      "h2h": null,
+      "formaGazda": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      },
+      "formaOaspete": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      }
+    },
+    "meciuriH2H": [
+      {
+        "title": "Ultimele meciuri: Leeds",
+        "matches": [
+          {
+            "data": "09.09.26",
+            "gazde": "Chelsea",
+            "oaspeti": "Leeds",
+            "scor": "6 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/chelsea-4fGZN2oK/leeds-tUxUbLR2/h2h/total/?mid=K2DLaNQF",
+            "statisticiMeci": null
+          },
+          {
+            "data": "05.09.26",
+            "gazde": "Brighton",
+            "oaspeti": "Leeds",
+            "scor": "1 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/brighton-2XrRecc3/leeds-tUxUbLR2/h2h/total/?mid=UBkmalpQ",
+            "statisticiMeci": null
+          },
+          {
+            "data": "30.08.26",
+            "gazde": "Leeds",
+            "oaspeti": "Brentford",
+            "scor": "1 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/brentford-xYe7DwID/leeds-tUxUbLR2/h2h/total/?mid=KQ1EQTw1",
+            "statisticiMeci": null
+          },
+          {
+            "data": "25.08.26",
+            "gazde": "Nottingham",
+            "oaspeti": "Leeds",
+            "scor": "0 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/nottingham-UsushcZr/h2h/total/?mid=Y9N0tMU0",
+            "statisticiMeci": null
+          },
+          {
+            "data": "22.08.26",
+            "gazde": "Nottingham",
+            "oaspeti": "Leeds",
+            "scor": "0 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/nottingham-UsushcZr/h2h/total/?mid=pjhHs7d2",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Ultimele meciuri: Newcastle",
+        "matches": [
+          {
+            "data": "08.09.26",
+            "gazde": "Millwall",
+            "oaspeti": "Newcastle",
+            "scor": "0 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/millwall-6uz2cJBL/newcastle-p6ahwuwJ/h2h/total/?mid=SQcCD1Kb",
+            "statisticiMeci": null
+          },
+          {
+            "data": "05.09.26",
+            "gazde": "Newcastle",
+            "oaspeti": "Bournemouth",
+            "scor": "2 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/bournemouth-OtpNdwrc/newcastle-p6ahwuwJ/h2h/total/?mid=A7Ob65ig",
+            "statisticiMeci": null
+          },
+          {
+            "data": "29.08.26",
+            "gazde": "Tottenham",
+            "oaspeti": "Newcastle",
+            "scor": "0 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/newcastle-p6ahwuwJ/tottenham-UDg08Ohm/h2h/total/?mid=ry1ouThf",
+            "statisticiMeci": null
+          },
+          {
+            "data": "26.08.26",
+            "gazde": "Newcastle",
+            "oaspeti": "West Brom",
+            "scor": "3 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/newcastle-p6ahwuwJ/west-brom-CCBWpzjj/h2h/total/?mid=4GzyLE2N",
+            "statisticiMeci": null
+          },
+          {
+            "data": "23.08.26",
+            "gazde": "Newcastle",
+            "oaspeti": "Liverpool",
+            "scor": "2 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/liverpool-lId4TMwf/newcastle-p6ahwuwJ/h2h/total/?mid=4xKntFxe",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Meciuri directe",
+        "matches": [
+          {
+            "data": "07.01.26",
+            "gazde": "Newcastle",
+            "oaspeti": "Leeds",
+            "scor": "4 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/newcastle-p6ahwuwJ/h2h/total/?mid=d4sh3Ytn",
+            "statisticiMeci": null
+          },
+          {
+            "data": "30.08.25",
+            "gazde": "Leeds",
+            "oaspeti": "Newcastle",
+            "scor": "0 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/newcastle-p6ahwuwJ/h2h/total/?mid=GQkNY1SO",
+            "statisticiMeci": null
+          },
+          {
+            "data": "13.05.23",
+            "gazde": "Leeds",
+            "oaspeti": "Newcastle",
+            "scor": "2 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/newcastle-p6ahwuwJ/h2h/total/?mid=YJLx0Txk",
+            "statisticiMeci": null
+          },
+          {
+            "data": "31.12.22",
+            "gazde": "Newcastle",
+            "oaspeti": "Leeds",
+            "scor": "0 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/newcastle-p6ahwuwJ/h2h/total/?mid=0MwMiyAl",
+            "statisticiMeci": null
+          },
+          {
+            "data": "22.01.22",
+            "gazde": "Leeds",
+            "oaspeti": "Newcastle",
+            "scor": "0 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/leeds-tUxUbLR2/newcastle-p6ahwuwJ/h2h/total/?mid=r3EGk6s7",
+            "statisticiMeci": null
+          }
+        ]
+      }
+    ],
+    "predictii": {
+      "GG": 70,
+      "X2": 95
+    },
+    "predictiiExtinse": {
+      "N/A": "Date insuficiente pentru cornere/cartonașe"
+    },
+    "predictiiPrimaRepriza": {
+      "N/A": "Nu există predicții sigure pentru prima repriză"
+    }
+  },
+  {
+    "urlMeci": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/udinese-rXw8YKDE/h2h/total/?mid=nBSIVLy2",
+    "matchTitle": "Inter vs Udinese",
+    "campionat": "Italia: Serie A - Runda 4",
+    "dataOra": "14.09.2026 21:45",
+    "scorMeciCurent": "- ()",
+    "echipaGazdaImg": "https://static.flashscore.com/res/image/data/lxz64qDa-O8c8nWOb.png",
+    "echipaOaspeteImg": "https://static.flashscore.com/res/image/data/AZBQMaYA-SYw7EcY6.png",
+    "statisticiH2H": {
+      "totalMeciuriH2H": 5,
+      "echipaGazda": {
+        "nume": "Inter",
+        "victorii": 4,
+        "goluriMarcate": 9
+      },
+      "echipaOaspete": {
+        "nume": "Udinese",
+        "victorii": 1,
+        "goluriMarcate": 5
+      },
+      "egaluri": 0,
+      "ambeleMarcheaza": 3,
+      "peste1_5Goluri": 4,
+      "peste2_5Goluri": 3
+    },
+    "formaRecentă": {
+      "echipaGazda": {
+        "nume": "Inter",
+        "totalMeciuri": 5,
+        "victorii": 4,
+        "egaluri": 0,
+        "infrangeri": 1,
+        "goluriMarcate": 10,
+        "goluriPrimite": 5,
+        "mediaGoluriMarcate": 2,
+        "mediaGoluriPrimite": 1,
+        "ambeleMarcheaza": 3,
+        "peste2_5Goluri": 3,
+        "cleanSheets": 2
+      },
+      "echipaOaspete": {
+        "nume": "Udinese",
+        "totalMeciuri": 5,
+        "victorii": 3,
+        "egaluri": 1,
+        "infrangeri": 1,
+        "goluriMarcate": 8,
+        "goluriPrimite": 6,
+        "mediaGoluriMarcate": 1.6,
+        "mediaGoluriPrimite": 1.2,
+        "ambeleMarcheaza": 4,
+        "peste2_5Goluri": 3,
+        "cleanSheets": 1
+      }
+    },
+    "statisticiExtinse": {
+      "total": null,
+      "primaRepriza": null
+    },
+    "statisticiGoluriPrimaRepriza": {
+      "h2h": null,
+      "formaGazda": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      },
+      "formaOaspete": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      }
+    },
+    "meciuriH2H": [
+      {
+        "title": "Ultimele meciuri: Inter",
+        "matches": [
+          {
+            "data": "08.09.26",
+            "gazde": "Real Madrid",
+            "oaspeti": "Inter",
+            "scor": "2 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/real-madrid-W8mj7MDD/h2h/total/?mid=foBRjez1",
+            "statisticiMeci": null
+          },
+          {
+            "data": "05.09.26",
+            "gazde": "Inter",
+            "oaspeti": "Napoli",
+            "scor": "3 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/napoli-69Dxbc61/h2h/total/?mid=8vUR2Bp1",
+            "statisticiMeci": null
+          },
+          {
+            "data": "30.08.26",
+            "gazde": "Cagliari",
+            "oaspeti": "Inter",
+            "scor": "0 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/cagliari-SCGVmKHb/inter-Iw7eKK25/h2h/total/?mid=U9xYyrto",
+            "statisticiMeci": null
+          },
+          {
+            "data": "22.08.26",
+            "gazde": "Inter",
+            "oaspeti": "Monza",
+            "scor": "4 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/monza-4YSMlwj7/h2h/total/?mid=8Mn7Y8Zh",
+            "statisticiMeci": null
+          },
+          {
+            "data": "15.08.26",
+            "gazde": "Inter",
+            "oaspeti": "Betis",
+            "scor": "1 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/inter-Iw7eKK25/h2h/total/?mid=0WRdWT9E",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Ultimele meciuri: Udinese",
+        "matches": [
+          {
+            "data": "07.09.26",
+            "gazde": "Udinese",
+            "oaspeti": "Lazio",
+            "scor": "1 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/lazio-URcSl02h/udinese-rXw8YKDE/h2h/total/?mid=pvEaHAaf",
+            "statisticiMeci": null
+          },
+          {
+            "data": "02.09.26",
+            "gazde": "Udinese",
+            "oaspeti": "Venezia",
+            "scor": "2 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/udinese-rXw8YKDE/venezia-MkPmVv50/h2h/total/?mid=KUF02tXq",
+            "statisticiMeci": null
+          },
+          {
+            "data": "29.08.26",
+            "gazde": "Monza",
+            "oaspeti": "Udinese",
+            "scor": "2 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/monza-4YSMlwj7/udinese-rXw8YKDE/h2h/total/?mid=M3q1axv9",
+            "statisticiMeci": null
+          },
+          {
+            "data": "22.08.26",
+            "gazde": "Udinese",
+            "oaspeti": "Como",
+            "scor": "1 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/como-ttyLthOA/udinese-rXw8YKDE/h2h/total/?mid=QuSvm8ln",
+            "statisticiMeci": null
+          },
+          {
+            "data": "15.08.26",
+            "gazde": "Udinese",
+            "oaspeti": "Padova",
+            "scor": "1 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/padova-2gUwEtrE/udinese-rXw8YKDE/h2h/total/?mid=0bMfjAPp",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Meciuri directe",
+        "matches": [
+          {
+            "data": "17.01.26",
+            "gazde": "Udinese",
+            "oaspeti": "Inter",
+            "scor": "0 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/udinese-rXw8YKDE/h2h/total/?mid=0MDIG2AL",
+            "statisticiMeci": null
+          },
+          {
+            "data": "31.08.25",
+            "gazde": "Inter",
+            "oaspeti": "Udinese",
+            "scor": "1 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/udinese-rXw8YKDE/h2h/total/?mid=I1tFwA0c",
+            "statisticiMeci": null
+          },
+          {
+            "data": "30.03.25",
+            "gazde": "Inter",
+            "oaspeti": "Udinese",
+            "scor": "2 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/udinese-rXw8YKDE/h2h/total/?mid=lErDBsoT",
+            "statisticiMeci": null
+          },
+          {
+            "data": "19.12.24",
+            "gazde": "Inter",
+            "oaspeti": "Udinese",
+            "scor": "2 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/udinese-rXw8YKDE/h2h/total/?mid=4QtH4kYi",
+            "statisticiMeci": null
+          },
+          {
+            "data": "28.09.24",
+            "gazde": "Udinese",
+            "oaspeti": "Inter",
+            "scor": "2 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/inter-Iw7eKK25/udinese-rXw8YKDE/h2h/total/?mid=pIgDNCf3",
+            "statisticiMeci": null
+          }
+        ]
+      }
+    ],
+    "predictii": {
+      "GG": 95,
+      "P2.5": 95
+    },
+    "predictiiExtinse": {
+      "N/A": "Date insuficiente pentru cornere/cartonașe"
+    },
+    "predictiiPrimaRepriza": {
+      "N/A": "Nu există predicții sigure pentru prima repriză"
+    }
+  },
+  {
+    "urlMeci": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/petrolul-dhnNlCE9/h2h/total/?mid=pCJCHsN9",
+    "matchTitle": "FCSB vs Petrolul Ploiești",
+    "campionat": "România: Superliga - Runda 9",
+    "dataOra": "14.09.2026 21:00",
+    "scorMeciCurent": "- ()",
+    "echipaGazdaImg": "https://static.flashscore.com/res/image/data/pY1jOEZA-SCh1iPaa.png",
+    "echipaOaspeteImg": "https://static.flashscore.com/res/image/data/SbmaaEg5-pMdWmvh1.png",
+    "statisticiH2H": {
+      "totalMeciuriH2H": 5,
+      "echipaGazda": {
+        "nume": "FCSB",
+        "victorii": 2,
+        "goluriMarcate": 6
+      },
+      "echipaOaspete": {
+        "nume": "Petrolul Ploiești",
+        "victorii": 0,
+        "goluriMarcate": 3
+      },
+      "egaluri": 3,
+      "ambeleMarcheaza": 3,
+      "peste1_5Goluri": 3,
+      "peste2_5Goluri": 1
+    },
+    "formaRecentă": {
+      "echipaGazda": {
+        "nume": "FCSB",
+        "totalMeciuri": 5,
+        "victorii": 2,
+        "egaluri": 0,
+        "infrangeri": 3,
+        "goluriMarcate": 10,
+        "goluriPrimite": 8,
+        "mediaGoluriMarcate": 2,
+        "mediaGoluriPrimite": 1.6,
+        "ambeleMarcheaza": 3,
+        "peste2_5Goluri": 4,
+        "cleanSheets": 1
+      },
+      "echipaOaspete": {
+        "nume": "Petrolul Ploiești",
+        "totalMeciuri": 5,
+        "victorii": 3,
+        "egaluri": 0,
+        "infrangeri": 2,
+        "goluriMarcate": 8,
+        "goluriPrimite": 7,
+        "mediaGoluriMarcate": 1.6,
+        "mediaGoluriPrimite": 1.4,
+        "ambeleMarcheaza": 2,
+        "peste2_5Goluri": 2,
+        "cleanSheets": 1
+      }
+    },
+    "statisticiExtinse": {
+      "total": null,
+      "primaRepriza": null
+    },
+    "statisticiGoluriPrimaRepriza": {
+      "h2h": null,
+      "formaGazda": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      },
+      "formaOaspete": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      }
+    },
+    "meciuriH2H": [
+      {
+        "title": "Ultimele meciuri: FCSB",
+        "matches": [
+          {
+            "data": "05.09.26",
+            "gazde": "Dinamo București",
+            "oaspeti": "FCSB",
+            "scor": "2 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/dinamo-bucuresti-rBgMi3MH/fcsb-Gv2kjDpN/h2h/total/?mid=U1f26dcB",
+            "statisticiMeci": null
+          },
+          {
+            "data": "02.09.26",
+            "gazde": "FC Argeș",
+            "oaspeti": "FCSB",
+            "scor": "0 - 5",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fc-arges-65I2MLv6/fcsb-Gv2kjDpN/h2h/total/?mid=lj7hHD2e",
+            "statisticiMeci": null
+          },
+          {
+            "data": "30.08.26",
+            "gazde": "FCSB",
+            "oaspeti": "UTA Arad",
+            "scor": "1 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fc-uta-arad-QDiPqBNj/fcsb-Gv2kjDpN/h2h/total/?mid=0Sgejp7D",
+            "statisticiMeci": null
+          },
+          {
+            "data": "23.08.26",
+            "gazde": "CFR Cluj",
+            "oaspeti": "FCSB",
+            "scor": "1 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/cfr-cluj-4KfIhq7B/fcsb-Gv2kjDpN/h2h/total/?mid=67FSSk9k",
+            "statisticiMeci": null
+          },
+          {
+            "data": "17.08.26",
+            "gazde": "FCSB",
+            "oaspeti": "FC Botoșani",
+            "scor": "3 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fc-botosani-GjY1JjUS/fcsb-Gv2kjDpN/h2h/total/?mid=ITi8zsBb",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Ultimele meciuri: Petrolul Ploiești",
+        "matches": [
+          {
+            "data": "06.09.26",
+            "gazde": "Petrolul Ploiești",
+            "oaspeti": "Corvinul",
+            "scor": "2 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/corvinul-hunedoara-6yaBf8yd/petrolul-dhnNlCE9/h2h/total/?mid=xSwT4qM6",
+            "statisticiMeci": null
+          },
+          {
+            "data": "01.09.26",
+            "gazde": "'U' Cluj",
+            "oaspeti": "Petrolul Ploiești",
+            "scor": "1 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/petrolul-dhnNlCE9/u-cluj-Us6gkXaT/h2h/total/?mid=2FMRDvd3",
+            "statisticiMeci": null
+          },
+          {
+            "data": "28.08.26",
+            "gazde": "'U' Cluj",
+            "oaspeti": "Petrolul Ploiești",
+            "scor": "2 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/petrolul-dhnNlCE9/u-cluj-Us6gkXaT/h2h/total/?mid=Op1Gw7N7",
+            "statisticiMeci": null
+          },
+          {
+            "data": "21.08.26",
+            "gazde": "Petrolul Ploiești",
+            "oaspeti": "Rapid București",
+            "scor": "0 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/petrolul-dhnNlCE9/rapid-bucuresti-YFCpigVG/h2h/total/?mid=GfStxfn3",
+            "statisticiMeci": null
+          },
+          {
+            "data": "18.08.26După prel.",
+            "gazde": "CSM Reșița",
+            "oaspeti": "Petrolul Ploiești",
+            "scor": "2 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/csm-resita-bH2GTTSR/petrolul-dhnNlCE9/h2h/total/?mid=bTAkHHIk",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Meciuri directe",
+        "matches": [
+          {
+            "data": "24.04.26",
+            "gazde": "FCSB",
+            "oaspeti": "Petrolul Ploiești",
+            "scor": "3 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/petrolul-dhnNlCE9/h2h/total/?mid=hhV9eOS7",
+            "statisticiMeci": null
+          },
+          {
+            "data": "22.11.25",
+            "gazde": "FCSB",
+            "oaspeti": "Petrolul Ploiești",
+            "scor": "1 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/petrolul-dhnNlCE9/h2h/total/?mid=MyjNeyUp",
+            "statisticiMeci": null
+          },
+          {
+            "data": "19.07.25",
+            "gazde": "Petrolul Ploiești",
+            "oaspeti": "FCSB",
+            "scor": "0 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/petrolul-dhnNlCE9/h2h/total/?mid=QLxHJhPk",
+            "statisticiMeci": null
+          },
+          {
+            "data": "06.02.25",
+            "gazde": "Petrolul Ploiești",
+            "oaspeti": "FCSB",
+            "scor": "0 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/petrolul-dhnNlCE9/h2h/total/?mid=0lUlemEd",
+            "statisticiMeci": null
+          },
+          {
+            "data": "21.09.24",
+            "gazde": "FCSB",
+            "oaspeti": "Petrolul Ploiești",
+            "scor": "1 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/petrolul-dhnNlCE9/h2h/total/?mid=27LElEL7",
+            "statisticiMeci": null
+          }
+        ]
+      }
+    ],
+    "predictii": {
+      "2": 70
+    },
+    "predictiiExtinse": {
+      "N/A": "Date insuficiente pentru cornere/cartonașe"
+    },
+    "predictiiPrimaRepriza": {
+      "N/A": "Nu există predicții sigure pentru prima repriză"
+    }
+  },
+  {
+    "urlMeci": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/villarreal-lUatW5jE/h2h/total/?mid=hdqa7PVb",
+    "matchTitle": "Villarreal vs Betis",
+    "campionat": "Spania: LaLiga - Runda 5",
+    "dataOra": "14.09.2026 22:00",
+    "scorMeciCurent": "- ()",
+    "echipaGazdaImg": "https://static.flashscore.com/res/image/data/65Z85Uh5-GSuwY3p9.png",
+    "echipaOaspeteImg": "https://static.flashscore.com/res/image/data/hvyaw5HG-zkU5wiAr.png",
+    "statisticiH2H": {
+      "totalMeciuriH2H": 5,
+      "echipaGazda": {
+        "nume": "Villarreal",
+        "victorii": 2,
+        "goluriMarcate": 8
+      },
+      "echipaOaspete": {
+        "nume": "Betis",
+        "victorii": 2,
+        "goluriMarcate": 9
+      },
+      "egaluri": 1,
+      "ambeleMarcheaza": 4,
+      "peste1_5Goluri": 5,
+      "peste2_5Goluri": 4
+    },
+    "formaRecentă": {
+      "echipaGazda": {
+        "nume": "Villarreal",
+        "totalMeciuri": 5,
+        "victorii": 0,
+        "egaluri": 2,
+        "infrangeri": 3,
+        "goluriMarcate": 8,
+        "goluriPrimite": 11,
+        "mediaGoluriMarcate": 1.6,
+        "mediaGoluriPrimite": 2.2,
+        "ambeleMarcheaza": 4,
+        "peste2_5Goluri": 4,
+        "cleanSheets": 0
+      },
+      "echipaOaspete": {
+        "nume": "Betis",
+        "totalMeciuri": 5,
+        "victorii": 4,
+        "egaluri": 0,
+        "infrangeri": 1,
+        "goluriMarcate": 8,
+        "goluriPrimite": 7,
+        "mediaGoluriMarcate": 1.6,
+        "mediaGoluriPrimite": 1.4,
+        "ambeleMarcheaza": 2,
+        "peste2_5Goluri": 2,
+        "cleanSheets": 3
+      }
+    },
+    "statisticiExtinse": {
+      "total": null,
+      "primaRepriza": null
+    },
+    "statisticiGoluriPrimaRepriza": {
+      "h2h": null,
+      "formaGazda": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      },
+      "formaOaspete": {
+        "totalMeciuri": 5,
+        "victoriiEchipa1": 0,
+        "victoriiEchipa2": 0,
+        "egaluri": 0,
+        "goluriEchipa1": 0,
+        "goluriEchipa2": 0,
+        "ambeleMarcheaza": 0,
+        "peste1_5": 0,
+        "peste2_5": 0,
+        "cleanSheetsEchipa1": 0
+      }
+    },
+    "meciuriH2H": [
+      {
+        "title": "Ultimele meciuri: Villarreal",
+        "matches": [
+          {
+            "data": "08.09.26",
+            "gazde": "Dortmund",
+            "oaspeti": "Villarreal",
+            "scor": "3 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/dortmund-nP1i5US1/villarreal-lUatW5jE/h2h/total/?mid=lGdh9XQ8",
+            "statisticiMeci": null
+          },
+          {
+            "data": "05.09.26",
+            "gazde": "Villarreal",
+            "oaspeti": "A Coruna",
+            "scor": "2 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/a-coruna-Q51ZzMS6/villarreal-lUatW5jE/h2h/total/?mid=IaIwr92m",
+            "statisticiMeci": null
+          },
+          {
+            "data": "28.08.26",
+            "gazde": "Alaves",
+            "oaspeti": "Villarreal",
+            "scor": "1 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/alaves-hxt57t2q/villarreal-lUatW5jE/h2h/total/?mid=6ots82LG",
+            "statisticiMeci": null
+          },
+          {
+            "data": "23.08.26",
+            "gazde": "Atl. Madrid",
+            "oaspeti": "Villarreal",
+            "scor": "2 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/atl-madrid-jaarqpLQ/villarreal-lUatW5jE/h2h/total/?mid=ImSSgC06",
+            "statisticiMeci": null
+          },
+          {
+            "data": "16.08.26",
+            "gazde": "Racing Santander",
+            "oaspeti": "Villarreal",
+            "scor": "2 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/racing-santander-nVpEwOrl/villarreal-lUatW5jE/h2h/total/?mid=8zpmsZG0",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Ultimele meciuri: Betis",
+        "matches": [
+          {
+            "data": "08.09.26",
+            "gazde": "Lille",
+            "oaspeti": "Betis",
+            "scor": "2 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/lille-pfDZL71o/h2h/total/?mid=StY6NNoJ",
+            "statisticiMeci": null
+          },
+          {
+            "data": "04.09.26",
+            "gazde": "Betis",
+            "oaspeti": "Real Madrid",
+            "scor": "1 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/real-madrid-W8mj7MDD/h2h/total/?mid=Au6uQzs2",
+            "statisticiMeci": null
+          },
+          {
+            "data": "29.08.26",
+            "gazde": "Levante",
+            "oaspeti": "Betis",
+            "scor": "5 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/levante-G8FL0ShI/h2h/total/?mid=O4LEM1zA",
+            "statisticiMeci": null
+          },
+          {
+            "data": "25.08.26",
+            "gazde": "Valencia",
+            "oaspeti": "Betis",
+            "scor": "0 - 1",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/valencia-CQeaytrD/h2h/total/?mid=xAQCcf1s",
+            "statisticiMeci": null
+          },
+          {
+            "data": "21.08.26",
+            "gazde": "Betis",
+            "oaspeti": "Real Sociedad",
+            "scor": "1 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/real-sociedad-jNvak2f3/h2h/total/?mid=jFuzhjVI",
+            "statisticiMeci": null
+          }
+        ]
+      },
+      {
+        "title": "Meciuri directe",
+        "matches": [
+          {
+            "data": "17.01.26",
+            "gazde": "Betis",
+            "oaspeti": "Villarreal",
+            "scor": "2 - 0",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/villarreal-lUatW5jE/h2h/total/?mid=tGkycsqI",
+            "statisticiMeci": null
+          },
+          {
+            "data": "18.10.25",
+            "gazde": "Villarreal",
+            "oaspeti": "Betis",
+            "scor": "2 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/villarreal-lUatW5jE/h2h/total/?mid=hOAApqJE",
+            "statisticiMeci": null
+          },
+          {
+            "data": "13.04.25",
+            "gazde": "Betis",
+            "oaspeti": "Villarreal",
+            "scor": "1 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/villarreal-lUatW5jE/h2h/total/?mid=OrFjZfvA",
+            "statisticiMeci": null
+          },
+          {
+            "data": "15.12.24",
+            "gazde": "Villarreal",
+            "oaspeti": "Betis",
+            "scor": "1 - 2",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/villarreal-lUatW5jE/h2h/total/?mid=IeVULjzS",
+            "statisticiMeci": null
+          },
+          {
+            "data": "10.03.24",
+            "gazde": "Betis",
+            "oaspeti": "Villarreal",
+            "scor": "2 - 3",
+            "url_h2h": "https://www.flashscore.ro/meci/fotbal/betis-vJbTeCGP/villarreal-lUatW5jE/h2h/total/?mid=Q54x5Hj8",
+            "statisticiMeci": null
+          }
+        ]
+      }
+    ],
+    "predictii": {
+      "2": 70,
+      "P2.5": 80,
+      "X2": 80
+    },
+    "predictiiExtinse": {
+      "N/A": "Date insuficiente pentru cornere/cartonașe"
+    },
+    "predictiiPrimaRepriza": {
+      "N/A": "Nu există predicții sigure pentru prima repriză"
+    }
+  }
+]
