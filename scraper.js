@@ -28,6 +28,7 @@ puppeteer.use(StealthPlugin());
     console.log('Pornim browser-ul...');
     const browser = await puppeteer.launch({
         headless: true, // Setat pe false pentru a vedea ce se întâmplă
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
         defaultViewport: null,
         args: [
             '--window-size=1200,800',
