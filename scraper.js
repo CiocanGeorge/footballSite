@@ -1,5 +1,7 @@
 // Importuri explicite pentru modulele de evaziune (necesare pentru compilare/bundling în medii precum Vercel/Webpack)
 try {
+    require('puppeteer-extra-plugin-user-preferences');
+    require('puppeteer-extra-plugin-user-data-dir');
     require('puppeteer-extra-plugin-stealth/evasions/chrome.app');
     require('puppeteer-extra-plugin-stealth/evasions/chrome.csi');
     require('puppeteer-extra-plugin-stealth/evasions/chrome.loadTimes');
