@@ -1,3 +1,23 @@
+// Importuri explicite pentru modulele de evaziune (necesare pentru compilare/bundling în medii precum Vercel/Webpack)
+try {
+    require('puppeteer-extra-plugin-stealth/evasions/chrome.app');
+    require('puppeteer-extra-plugin-stealth/evasions/chrome.csi');
+    require('puppeteer-extra-plugin-stealth/evasions/chrome.loadTimes');
+    require('puppeteer-extra-plugin-stealth/evasions/chrome.runtime');
+    require('puppeteer-extra-plugin-stealth/evasions/defaultArgs');
+    require('puppeteer-extra-plugin-stealth/evasions/iframe.contentWindow');
+    require('puppeteer-extra-plugin-stealth/evasions/media.codecs');
+    require('puppeteer-extra-plugin-stealth/evasions/navigator.hardwareConcurrency');
+    require('puppeteer-extra-plugin-stealth/evasions/navigator.languages');
+    require('puppeteer-extra-plugin-stealth/evasions/navigator.permissions');
+    require('puppeteer-extra-plugin-stealth/evasions/navigator.plugins');
+    require('puppeteer-extra-plugin-stealth/evasions/navigator.webdriver');
+    require('puppeteer-extra-plugin-stealth/evasions/sourceurl');
+    require('puppeteer-extra-plugin-stealth/evasions/user-agent-override');
+    require('puppeteer-extra-plugin-stealth/evasions/webgl.vendor');
+    require('puppeteer-extra-plugin-stealth/evasions/window.outerdimensions');
+} catch (_) {}
+
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
